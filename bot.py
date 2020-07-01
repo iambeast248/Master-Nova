@@ -374,9 +374,9 @@ async def ownerinfo(ctx):
     author = ctx.message.author
     r, g, b = tuple(int(x * 255) for x in colorsys.hsv_to_rgb(random.random(), 1, 1))
     embed = discord.Embed(color = discord.Color((r << 16) + (g << 8) + b))
-    embed.add_field(name = 'OwnerName:',value ='XxKingNovaXx#0416',inline = False)
+    embed.add_field(name = 'OwnerName:',value ='Beast#2673',inline = False)
     embed.add_field(name = 'OwnerId:',value ='477463812786618388',inline = False)
-    embed.add_field(name = 'Name+Id:',value ='XxKingNovaXx#0416 <=====> 477463812786618388',inline = False)
+    embed.add_field(name = 'Name+Id:',value ='beast#2673<=====> 477463812786618388',inline = False)
     await client.say(embed=embed)                 
 
 @client.command(pass_context = True)
@@ -492,7 +492,7 @@ async def meme(ctx):
             await client.say(embed=embed)
 
 
-@commands.has_permissions(manage_server =True)
+@commands.has_permissions(manage_guild =True)
 @client.command(pass_context =True)
 async def update(ctx, msg: str = None):
            server = client.get_server("528115053736493086")

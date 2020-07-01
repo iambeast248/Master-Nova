@@ -1,5 +1,5 @@
 # Master-Nova
-A python bot
+A python bot(I'm King Nova the same person who made the bo
 **Dont copy my bot commands result in a ban**
 **Hey Guys This Is the official Bot Master Nova It has:**
 # Commands 
